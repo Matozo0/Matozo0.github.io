@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-    font-size: 2.25rem;
+    font-size: 3rem;
     vertical-align: middle;
     margin-left: 20px;
 }
@@ -22,20 +22,30 @@ h1, h2, h3, h4, h5, h6 {
     width: 100px;
 }
 .imgcarousel {
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
+}
+#divnoticia {
+    text-align: center;
+}
+.imgnoticia{
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
 }
 #carouselNoticiasRapidas{
-    width: 800px;
-}
+    width: 1000px;
+}   
 .texto-carousel{
     text-shadow: 0 0 5px #000000;
 }
 .carousel-caption{
     margin: 0px;
     padding: 10px;
-    backdrop-filter: blur(2px);
-    border-radius: 25px;    
+    border-radius: 20px;
+    background-color: #000000;    
     box-shadow: 0 0 50px #000000;
 }
-
+p {
+    font-size: 19px;
+}
